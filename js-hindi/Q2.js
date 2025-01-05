@@ -148,16 +148,73 @@
 // console.log(obj1.hasOwnProperty("name"))
 
 
-const course={
+// const course={
 
-    subject:"mathemetics",
-    roll_no:145,
-}
+//     subject:"mathemetics",
+//     roll_no:145,
+// }
 
 
-const {roll_no:phase}=course;
-console.log(phase)
+// const {roll_no:phase}=course;
+// console.log(phase)
 
+
+// function calculateprice(val1,val2,...num1){
+//     let s=val1+val2;
+//     console.log(s)
+//     return num1;
+
+// }
+
+// console.log(calculateprice(200,400,600,800))
+
+
+// let obj={
+//     islogged:true,
+//     movie_name:"veer"
+// }
+
+
+// function handleObject(val){
+
+//     console.log(`movie name is ${val.movie_name}`);
+
+// }
+
+// handleObject(obj)
+// const arr=[44,64,45];
+// function returnsecod(getarray){
+//     return getarray;
+// }
+
+
+// console.log(returnsecod(arr))
+
+
+
+//  function one(){
+
+//     const a="mohan";
+
+//     function b(){
+//         console.log(a)
+//     }
+//     b()
+//  }
+//  one();
+
+
+// const user={
+//     username:"sujal",
+//     price:999,
+
+//     welcome:function(){
+//         console.log(`welcome to ${this.username}`);
+//     }
+// } 
+
+
+// user.welcome();
 
 
 
